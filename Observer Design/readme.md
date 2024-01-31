@@ -6,7 +6,7 @@ This repository contains MATLAB code files related to desigining an observer for
 Consider the following system:
 
 <p align="center">
-  <img src="./Figures/sim.png" width="500" height="150" alt="geo">
+  <img src="./Figures/sim.png" width="300" height="150" alt="geo">
 </p>
 
 The parameters are assigned as:
@@ -23,7 +23,7 @@ After discretization of the model of the system using a suitable sampling time (
 The simulink drawn is as below:
 
 <p align="center">
-  <img src="./Figures/simulink.png" width="500" height="500" alt="simulink">
+  <img src="./Figures/simulink.png" width="600" height="500" alt="simulink">
 </p>
 
 The result is as follows:
