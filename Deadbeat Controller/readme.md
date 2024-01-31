@@ -5,7 +5,7 @@ This repository contains MATLAB code files related to the Digital Control course
 ## Problem 1: Deadbeat Controller Design and Implementation
 We consider the system from [System Simulation](https://github.com/sepidehkhakzad/DigitalControl/tree/main/System%20Simulation) and get the Z-transfer of it:
 
-'''
+``````
 Ab=[0 1 0 0
 -14/15 -3/4 14/15 3/4
 0 0 0 1
@@ -19,18 +19,18 @@ Db=0;
 [num,den]=ss2tf(Ab,Bb,Cb,Db);
 sys=tf(num,den);
 P1z = c2d(sys,0.1,'zoh')
-'''
+``````
 
 We then design a deadbeat controller as follows:
 
-'''
+``` 
 Tz=1/z;
 C1z=Tz/(P1z*(1-Tz));
 C1z=minreal(C1z)
 step(C1z*P1z/(1+C1z*P1z))
 figure
 impulse(C1z*P1z/(1+C1z*P1z))
-'''
+```
 
 After implementing the controller, the output is like this:
 
