@@ -38,11 +38,7 @@ With controller:
   <img src="./Figures/withCont.png" width="400" height="300" alt="withCont">
 </p>
 
-Root locus and Bode diagram of the system:
-
-<p align="center">
-  <img src="./Figures/RL1.png" width="400" height="300" alt="RL1">
-</p>
+Root locus and Bode diagram of the system are also drawn.
 
 ## How to Run
 1. Clone the repository to your local machine.
