@@ -23,13 +23,13 @@ After discretization of the model of the system using a suitable sampling time (
 The simulink drawn is as below:
 
 <p align="center">
-  <img src="./Figures/simulink.png" width="600" height="500" alt="simulink">
+  <img src="./Figures/simulink.png" width="700" height="500" alt="simulink">
 </p>
 
 The result is as follows:
 
 <p align="center">
-  <img src="./Figures/res.png" width="500" height="500" alt="simulink">
+  <img src="./Figures/res.png" width="550" height="500" alt="simulink">
 </p>
 
 ## How to Run
