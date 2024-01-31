@@ -6,7 +6,7 @@ This repository contains MATLAB code files related to the Digital Control course
 Consider the following system:
 
 <p align="center">
-  <img src="./Figures/sim.png" width="600" height="300" alt="geo">
+  <img src="./Figures/sim.png" width="500" height="150" alt="geo">
 </p>
 
 The goal is to find the discrete-time model using a suitable sampling time.
