@@ -3,12 +3,11 @@ This repository contains MATLAB code for discretizing a system using different m
 
 ## Problem Overview
 Consider a system with dynamics represented by:
-
 $$
 G(s)= 
 \frac{1}{(s+1)(s+2)(s+20)}
 $$
-​
+
 
 ## Discretization with Different Methods
 
