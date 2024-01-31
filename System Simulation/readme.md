@@ -6,7 +6,7 @@ This repository contains MATLAB code files related to the Digital Control course
 Consider the following system:
 
 <p align="center">
-  <img src="./Figures/sim.png" width="400" height="300" alt="geo">
+  <img src="./Figures/sim.png" width="600" height="300" alt="geo">
 </p>
 
 The goal is to find the discrete-time model using a suitable sampling time.
@@ -43,6 +43,7 @@ $$
 
 We consider state parameters as: $x_1, \dot{x}_1, x_2, \dot{x}_2$
 and we'd have our matrix as follows: 
+
 $$
 \begin{aligned}
 & \text { A = }\left[\begin{array}{cccc}
@@ -67,7 +68,7 @@ $$
 Creating the transformation function using the 'tf' command, we introduce a delay as well. Employing the 'c2d' command, we discretize the function with an appropriate sampling frequency (at least twice the frequency of the original function). Subsequently, we illustrated the step response. You can find the Matlab code in Q1.m.
 
 <p align="center">
-  <img src="./Figures/res1.png" width="400" height="300" alt="geo">
+  <img src="./Figures/res1.png" width="400" height="100" alt="geo">
 </p>
 
 <p align="center">
@@ -81,7 +82,7 @@ This section explains MATLAB code for analyzing and modeling a given transfer fu
 ### Problem Overview
 
 Considering the transfer function:
-​
+
  $$
  H(z)=\frac{z^2+1.5 z+0.45}{z^2+z+0.1}
  $$
